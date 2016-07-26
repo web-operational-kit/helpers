@@ -1,0 +1,27 @@
+{
+    "name": "wok/helpers",
+    "type": "library",
+    "version": "1.0.0-dev",
+    "description": "WOK framework helpers",
+    "homepage": "https://github.com/web-operational-kit/helpers",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Sébastien ALEXANDRE",
+            "email": "sebastien@graphidev.fr"
+        }
+    ],
+    "autoload" : {
+        "files": [
+            "src/arrays.php",
+            "src/helpers.php",
+            "src/strings.php",
+            "src/supports.php",
+            "src/system.php",
+            "src/unicode.php",
+            "src/variables.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
